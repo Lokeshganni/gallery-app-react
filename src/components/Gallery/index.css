@@ -1,0 +1,45 @@
+/* Write your code here. */
+
+.main-container {
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 15px;
+}
+
+.sub-container {
+  /* padding: 20px; */
+}
+
+.img-styling {
+  width: 100%;
+}
+
+.heading {
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.para {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 1px;
+  padding: 1px;
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    width: 94%;
+  }
+}

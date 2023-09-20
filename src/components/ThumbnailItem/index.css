@@ -1,0 +1,15 @@
+/* Write your code here. */
+
+li {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.image {
+  opacity: 0.5;
+  width: 75px;
+}
+
+.img-opacity {
+  opacity: 1;
+}
